@@ -2,7 +2,7 @@
 
 This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-* Solution page
+* [Solution page](https://www.frontendmentor.io/solutions/four-card-feature-section-dwTpYzHQjG)
 * [Live demo](https://risclover.github.io/four-card-feature-section)
 
 ## A Note From the Developer (Me!)
