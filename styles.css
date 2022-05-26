@@ -1,0 +1,188 @@
+                                                                                                                                                                                                        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(234, 12%, 34%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 500px;
+    margin: 20px auto 30px auto;
+}
+
+header h1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    
+}
+
+header p {
+    margin-top: 10px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-mid {
+    display: flex;
+    flex-direction: column;
+}
+
+.thin-head {
+    font-weight: 200;
+}
+
+.thick-head {
+    font-weight: 600;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+.box-container {
+    background-color: white;
+    padding: 20px 30px 30px 30px;
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    border-radius: 5px;
+    height: 250px;
+    box-shadow: rgba(116, 154, 176, 0.25) 0px 25px 20px -20px, rgba(110, 149, 171, 0.25) 0px 10px 15px;
+
+}
+
+.box-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.box-container p {
+    font-size: 13px;
+    font-weight: 400;
+    color:hsl(229, 6%, 66%);
+    line-height: 1.8;
+}
+
+.red {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.teal {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.orange {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.blue {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.box-img {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer {
+    background-color: #0000007c;
+    color: white;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+}
+.frontend-icon {
+    width: 15px;
+    height: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color:hsl(0, 0%, 85%);
+}
+
+@media (max-width: 1150px) {
+    body {
+        justify-content: flex-start;
+        padding-bottom: 100px;
+    }
+
+    header {
+        max-width: 350px;
+    }
+
+    header h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    header p {
+        max-width: 315px;
+    }
+
+    main {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .box-container {
+        max-width: 315px;
+        height: 240px;
+    }
+
+    footer {
+        position: fixed;
+        color: white;
+        margin-top: 40px;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .frontend-icon {
+        width: 11px;
+        height: 11px;
+    }
+    
+}
